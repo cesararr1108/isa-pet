@@ -1,0 +1,45 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Isa Pet Admin</title><link rel="stylesheet" href="base.css"></head><body><div class="admin">
+<aside class="side"><div class="logo"><span>🐾</span>Isa Pet <small style="font-size:11px;color:#94A3B8;font-weight:600;margin-left:4px">ADMIN</small></div>
+<a class="">📊 Dashboard</a>
+<div class="grp">Ventas</div>
+<a class="">🧾 Pedidos y facturación <em>12</em></a>
+<a class="on">💵 Cajas / POS</a>
+<a class="">↩️ Devoluciones <em>4</em></a>
+<div class="grp">Compras e inventario</div>
+<a class="">📥 Ingreso de facturas</a>
+<a class="">📦 Productos y materiales</a>
+<a>🏷️ Categorías</a><a>🚚 Proveedores</a>
+<div class="grp">Sistema</div>
+<a>👥 Clientes</a><a>📈 Reportes</a><a>⚙️ Configuración</a>
+<div class="me"><div class="av">CA</div><div><b style="color:#fff">Cesar A.</b><br><span style="color:#94A3B8">Administrador</span></div></div>
+</aside><main class="main">
+<div class="head"><div><p>Ventas › Cajas</p><h1>Cajas / Punto de venta</h1></div>
+<div class="acts"><button class="btn btn-ghost">📜 Historial de cierres</button><button class="btn btn-pri">🔓 Abrir caja</button></div></div>
+<div class="kpis" style="grid-template-columns:repeat(3,1fr)">
+<div class="kpi" style="border:2px solid var(--a-pri)"><div class="l"><b style="color:var(--a-ink)">🖥 Caja 1 · Principal</b><span class="chip ok">● Abierta</span></div><div class="v">$1,284.50</div><div class="d" style="color:var(--a-muted)">Cajera: Andrea M. · desde 08:00 · 38 ventas</div></div>
+<div class="kpi"><div class="l"><b style="color:var(--a-ink)">🖥 Caja 2 · Peluquería</b><span class="chip ok">● Abierta</span></div><div class="v">$412.00</div><div class="d" style="color:var(--a-muted)">Cajero: Kevin R. · desde 09:00 · 11 ventas</div></div>
+<div class="kpi" style="opacity:.7"><div class="l"><b style="color:var(--a-ink)">🖥 Caja 3 · Express</b><span class="chip">○ Cerrada</span></div><div class="v">$0.00</div><div class="d" style="color:var(--a-muted)">Último cierre: ayer 21:04 · cuadrada ✓</div></div></div>
+<div class="g2" style="grid-template-columns:1fr 1fr">
+<div class="card"><h3>Movimientos · Caja 1 <small>Hoy</small></h3>
+<table class="nw"><tr><th>Hora</th><th>Tipo</th><th>Detalle</th><th>Método</th><th style="text-align:right">Monto</th></tr>
+<tr><td>08:00</td><td><span class="chip pri">Apertura</span></td><td>Fondo inicial</td><td>💵</td><td style="text-align:right"><b>$100.00</b></td></tr>
+<tr><td>10:42</td><td><span class="chip ok">Venta</span></td><td>Fact. 001-001-4521</td><td>💳 Tarjeta</td><td style="text-align:right"><b class="up">+$42.10</b></td></tr>
+<tr><td>11:05</td><td><span class="chip ok">Venta</span></td><td>Fact. 001-001-4523</td><td>💵 Efectivo</td><td style="text-align:right"><b class="up">+$18.75</b></td></tr>
+<tr><td>11:30</td><td><span class="chip warn">Egreso</span></td><td>Pago agua botellón</td><td>💵 Efectivo</td><td style="text-align:right"><b class="down">−$6.00</b></td></tr>
+<tr><td>12:14</td><td><span class="chip bad">Devolución</span></td><td>NC-00033</td><td>💵 Efectivo</td><td style="text-align:right"><b class="down">−$12.99</b></td></tr>
+<tr><td>12:40</td><td><span class="chip ok">Venta</span></td><td>Fact. 001-001-4527</td><td>📱 Transferencia</td><td style="text-align:right"><b class="up">+$64.90</b></td></tr>
+</table></div>
+<div class="card"><h3>Arqueo y cierre de caja · Caja 1</h3>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">
+<div style="background:#FAFBFD;border:1px solid var(--a-line);border-radius:12px;padding:12px"><div style="font-size:12px;color:var(--a-muted)">💵 Efectivo</div><b style="font-size:18px">$486.30</b></div>
+<div style="background:#FAFBFD;border:1px solid var(--a-line);border-radius:12px;padding:12px"><div style="font-size:12px;color:var(--a-muted)">💳 Tarjetas</div><b style="font-size:18px">$612.40</b></div>
+<div style="background:#FAFBFD;border:1px solid var(--a-line);border-radius:12px;padding:12px"><div style="font-size:12px;color:var(--a-muted)">📱 Transferencias</div><b style="font-size:18px">$185.80</b></div>
+<div style="background:#FAFBFD;border:1px solid var(--a-line);border-radius:12px;padding:12px"><div style="font-size:12px;color:var(--a-muted)">↩️ Devoluciones / egresos</div><b style="font-size:18px" class="down">−$18.99</b></div></div>
+<h3 style="font-size:14px">Conteo de efectivo</h3>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px;font-size:13px">
+<div class="input">$20 × 15</div><div class="input">$10 × 12</div><div class="input">$5 × 9</div><div class="input">$1 × 18</div><div class="input">¢50 × 4</div><div class="input">¢25 × 6</div><div class="input">¢10 × 8</div><div class="input">¢5 × 2</div></div>
+<div class="tot">Esperado en efectivo <b>$486.30</b></div><div class="tot">Contado <b>$486.40</b></div>
+<div class="tot big">Diferencia <span class="chip ok" style="font-size:14px">+$0.10 ✓ Cuadrada</span></div>
+<button class="btn btn-pri" style="width:100%;justify-content:center;margin-top:12px">🔒 Cerrar caja e imprimir reporte Z</button>
+</div></div>
+</main></div></body></html>

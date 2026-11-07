@@ -1,0 +1,46 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Isa Pet Admin</title><link rel="stylesheet" href="base.css"></head><body><div class="admin">
+<aside class="side"><div class="logo"><span>🐾</span>Isa Pet <small style="font-size:11px;color:#94A3B8;font-weight:600;margin-left:4px">ADMIN</small></div>
+<a class="">📊 Dashboard</a>
+<div class="grp">Ventas</div>
+<a class="on">🧾 Pedidos y facturación <em>12</em></a>
+<a class="">💵 Cajas / POS</a>
+<a class="">↩️ Devoluciones <em>4</em></a>
+<div class="grp">Compras e inventario</div>
+<a class="">📥 Ingreso de facturas</a>
+<a class="">📦 Productos y materiales</a>
+<a>🏷️ Categorías</a><a>🚚 Proveedores</a>
+<div class="grp">Sistema</div>
+<a>👥 Clientes</a><a>📈 Reportes</a><a>⚙️ Configuración</a>
+<div class="me"><div class="av">CA</div><div><b style="color:#fff">Cesar A.</b><br><span style="color:#94A3B8">Administrador</span></div></div>
+</aside><main class="main">
+<div class="head"><div><p>Ventas › Pedidos</p><h1>Facturación de pedidos</h1></div>
+<div class="acts"><button class="btn btn-ghost">⬇ Exportar</button><button class="btn btn-pri">🧾 Facturar seleccionados (3)</button></div></div>
+<div class="tabs"><span class="on">Por facturar · 12</span><span>Facturados · 341</span><span>Anulados · 2</span><span>Todos</span></div>
+<div class="g2" style="grid-template-columns:1fr 420px">
+<div class="card" style="padding:0;overflow:hidden">
+<table><tr><th>☐</th><th>Pedido</th><th>Cliente</th><th>Fecha</th><th>Pago</th><th>Total</th><th>Estado</th></tr>
+<tr style="background:#F7F5FF"><td>☑</td><td><b>#PED-10482</b></td><td>María López<br><span style="color:#94A3B8">CI 0923456781</span></td><td>Hoy 09:12</td><td><span class="chip ok">💳 Pagado</span></td><td><b>$115.37</b></td><td><span class="chip warn">Preparando</span></td></tr>
+<tr><td>☑</td><td><b>#PED-10478</b></td><td>Pedro Salas<br><span style="color:#94A3B8">Consumidor final</span></td><td>Hoy 08:40</td><td><span class="chip ok">💳 Pagado</span></td><td><b>$32.00</b></td><td><span class="chip info">Listo</span></td></tr>
+<tr><td>☑</td><td><b>#PED-10475</b></td><td>Vet. San Roque<br><span style="color:#94A3B8">RUC 0991234567001</span></td><td>Ayer</td><td><span class="chip warn">🏦 Transferencia</span></td><td><b>$540.20</b></td><td><span class="chip info">Listo</span></td></tr>
+<tr><td>☐</td><td><b>#PED-10471</b></td><td>Carla Vera</td><td>Ayer</td><td><span class="chip bad">⏳ Pendiente</span></td><td><b>$18.90</b></td><td><span class="chip">Esperando pago</span></td></tr>
+<tr><td>☐</td><td><b>#PED-10470</b></td><td>Diego Ríos</td><td>Ayer</td><td><span class="chip ok">💵 Contra entrega</span></td><td><b>$76.40</b></td><td><span class="chip info">En camino</span></td></tr>
+<tr><td>☐</td><td><b>#PED-10466</b></td><td>Lucía Gómez</td><td>04 nov</td><td><span class="chip ok">💳 Pagado</span></td><td><b>$44.10</b></td><td><span class="chip info">Listo</span></td></tr>
+</table></div>
+<div class="card">
+<div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:14px"><div><div style="font-size:12px;color:var(--a-muted)">VISTA PREVIA</div><h3 style="margin:2px 0 0">Factura 001-001-000004522</h3></div><span class="chip pri">Electrónica SRI</span></div>
+<div style="background:#FAFBFD;border:1px solid var(--a-line);border-radius:12px;padding:14px;font-size:13px;margin-bottom:12px">
+<b>María López</b> · CI 0923456781<br><span style="color:var(--a-muted)">maria.lopez@mail.com · Av. Las Monjas 214</span></div>
+<div class="tot"><span>1 × Royal Canin Adulto 15kg</span><b>$64.90</b></div>
+<div class="tot"><span>2 × Pelotas pack x3</span><b>$25.98</b></div>
+<div class="tot"><span>1 × Snacks salmón (suscripción)</span><b>$7.20</b></div>
+<div class="tot"><span>Envío express</span><b>$3.50</b></div>
+<div class="tot" style="border-top:1px dashed var(--a-line);margin-top:6px;padding-top:10px">Subtotal 15% <b>$100.78</b></div>
+<div class="tot">IVA 15% <b>$14.59</b></div>
+<div class="tot big">Total <span>$115.37</span></div>
+<div class="timeline" style="margin:16px 0">
+<div><i style="background:var(--ok)"></i><span><b>Pedido recibido</b> · 09:12</span></div>
+<div><i style="background:var(--ok)"></i><span><b>Pago confirmado</b> · Visa ****4821</span></div>
+<div><i style="background:var(--a-pri)"></i><span><b>Generar factura</b> · se enviará al cliente por email y WhatsApp</span></div></div>
+<div style="display:flex;gap:8px"><button class="btn btn-ghost" style="flex:1;justify-content:center">🖨 Imprimir</button><button class="btn btn-pri" style="flex:2;justify-content:center">🧾 Emitir factura</button></div>
+</div></div>
+</main></div></body></html>

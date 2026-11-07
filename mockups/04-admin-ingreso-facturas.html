@@ -1,0 +1,46 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Isa Pet Admin</title><link rel="stylesheet" href="base.css"></head><body><div class="admin">
+<aside class="side"><div class="logo"><span>🐾</span>Isa Pet <small style="font-size:11px;color:#94A3B8;font-weight:600;margin-left:4px">ADMIN</small></div>
+<a class="">📊 Dashboard</a>
+<div class="grp">Ventas</div>
+<a class="">🧾 Pedidos y facturación <em>12</em></a>
+<a class="">💵 Cajas / POS</a>
+<a class="">↩️ Devoluciones <em>4</em></a>
+<div class="grp">Compras e inventario</div>
+<a class="on">📥 Ingreso de facturas</a>
+<a class="">📦 Productos y materiales</a>
+<a>🏷️ Categorías</a><a>🚚 Proveedores</a>
+<div class="grp">Sistema</div>
+<a>👥 Clientes</a><a>📈 Reportes</a><a>⚙️ Configuración</a>
+<div class="me"><div class="av">CA</div><div><b style="color:#fff">Cesar A.</b><br><span style="color:#94A3B8">Administrador</span></div></div>
+</aside><main class="main">
+<div class="head"><div><p>Compras › Ingreso de facturas</p><h1>Nueva factura de proveedor</h1></div>
+<div class="acts"><button class="btn btn-ghost">Guardar borrador</button><button class="btn btn-pri">✓ Registrar e ingresar a inventario</button></div></div>
+<div class="g2" style="grid-template-columns:1fr 340px">
+<div>
+<div class="card" style="margin-bottom:16px"><h3>Datos de la factura <span class="chip info">🤖 Datos leídos del XML/PDF automáticamente</span></h3>
+<div class="fgrid">
+<label class="field">Proveedor<div class="input">🚚 Distribuidora PetFood S.A.</div></label>
+<label class="field">RUC<div class="input">0992345678001</div></label>
+<label class="field">N° de factura<div class="input">001-002-000089123</div></label>
+<label class="field">Fecha de emisión<div class="input">📅 05/11/2026</div></label>
+<label class="field">Vencimiento / crédito<div class="input">30 días · 05/12/2026</div></label>
+<label class="field">Bodega destino<div class="input">🏬 Bodega principal</div></label>
+</div></div>
+<div class="card"><h3>Detalle de productos <small>＋ Agregar línea · ⌨️ Escanear código de barras</small></h3>
+<table><tr><th>Producto / material</th><th>Cant.</th><th>Costo unit.</th><th>Desc.</th><th>IVA</th><th>Subtotal</th><th>Margen sugerido</th></tr>
+<tr><td><span class="thumb">🦴</span><b>Royal Canin Adulto 15kg</b><br><span style="color:#94A3B8;display:block">ALM-RC-015</span></td><td>20</td><td>$48.20</td><td>5%</td><td>15%</td><td><b>$915.80</b></td><td><span class="chip ok">PVP $64.90 · 34%</span></td></tr>
+<tr><td><span class="thumb">🐟</span><b>Snacks salmón gato 200g</b><br><span style="color:#94A3B8;display:block">SNK-SAL-200</span></td><td>48</td><td>$4.10</td><td>0%</td><td>15%</td><td><b>$196.80</b></td><td><span class="chip ok">PVP $8.00 · 49%</span></td></tr>
+<tr><td><span class="thumb">🪣</span><b>Arena aglomerante 10kg</b><br><span style="color:#94A3B8;display:block">HIG-ARE-010</span></td><td>30</td><td>$12.40</td><td>0%</td><td>15%</td><td><b>$372.00</b></td><td><span class="chip warn">Costo subió +6%</span></td></tr>
+<tr><td><span class="thumb">✨</span><b style="color:var(--a-pri)">Producto nuevo: Collar LED</b><br><span style="color:#94A3B8;display:block">Se creará en catálogo</span></td><td>15</td><td>$5.30</td><td>0%</td><td>15%</td><td><b>$79.50</b></td><td><span class="chip pri">Definir PVP</span></td></tr>
+</table></div>
+</div>
+<div>
+<div class="card" style="margin-bottom:16px"><h3>Archivo de la factura</h3>
+<div class="drop">📄 <b>factura_000089123.xml</b><br>Subido · 42 KB<br><br><span style="color:var(--a-pri);font-weight:600">Arrastra XML, PDF o foto</span></div></div>
+<div class="card" style="margin-bottom:16px"><h3>Totales</h3>
+<div class="tot">Subtotal <b>$1,612.00</b></div><div class="tot">Descuentos <b class="down">−$48.20</b></div><div class="tot">IVA 15% <b>$234.57</b></div><div class="tot">Retención fuente 1.75% <b>−$27.37</b></div>
+<div class="tot big">Total a pagar <span>$1,771.00</span></div></div>
+<div class="card"><h3>Pago</h3><div class="tabs"><span>Contado</span><span class="on">Crédito</span><span>Parcial</span></div>
+<div class="tot">Cuenta por pagar <b>$1,771.00</b></div><div class="tot">Vence <span class="chip warn">en 28 días</span></div></div>
+</div></div>
+</main></div></body></html>

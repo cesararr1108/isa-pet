@@ -1,0 +1,42 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Isa Pet Admin</title><link rel="stylesheet" href="base.css"></head><body><div class="admin">
+<aside class="side"><div class="logo"><span>🐾</span>Isa Pet <small style="font-size:11px;color:#94A3B8;font-weight:600;margin-left:4px">ADMIN</small></div>
+<a class="">📊 Dashboard</a>
+<div class="grp">Ventas</div>
+<a class="">🧾 Pedidos y facturación <em>12</em></a>
+<a class="">💵 Cajas / POS</a>
+<a class="on">↩️ Devoluciones <em>4</em></a>
+<div class="grp">Compras e inventario</div>
+<a class="">📥 Ingreso de facturas</a>
+<a class="">📦 Productos y materiales</a>
+<a>🏷️ Categorías</a><a>🚚 Proveedores</a>
+<div class="grp">Sistema</div>
+<a>👥 Clientes</a><a>📈 Reportes</a><a>⚙️ Configuración</a>
+<div class="me"><div class="av">CA</div><div><b style="color:#fff">Cesar A.</b><br><span style="color:#94A3B8">Administrador</span></div></div>
+</aside><main class="main">
+<div class="head"><div><p>Ventas › Devoluciones</p><h1>Devoluciones y notas de crédito</h1></div>
+<div class="acts"><button class="btn btn-pri">＋ Nueva devolución</button></div></div>
+<div class="kpis">
+<div class="kpi"><div class="l">Solicitudes abiertas <span class="ic warn">📨</span></div><div class="v">4</div><div class="d">2 esperan revisión</div></div>
+<div class="kpi"><div class="l">Reembolsado este mes <span class="ic bad">💸</span></div><div class="v">$412.60</div><div class="d down">0.9% de ventas</div></div>
+<div class="kpi"><div class="l">Reingresado a stock <span class="ic ok">📦</span></div><div class="v">23 uds</div><div class="d up">87% reutilizable</div></div>
+<div class="kpi"><div class="l">Motivo principal <span class="ic info">📊</span></div><div class="v" style="font-size:20px">Talla incorrecta</div><div class="d">42% de los casos</div></div></div>
+<div class="g2" style="grid-template-columns:1.25fr 1fr">
+<div class="card" style="padding:0;overflow:hidden"><table class="nw">
+<tr><th>Caso</th><th>Cliente</th><th>Motivo</th><th>Monto</th><th>Estado</th></tr>
+<tr style="background:#F7F5FF"><td><b>DEV-0091</b></td><td>Luis Mena</td><td>Producto dañado</td><td>$23.40</td><td><span class="chip warn">En revisión</span></td></tr>
+<tr><td><b>DEV-0090</b></td><td>Sofía Andrade</td><td>Talla incorrecta</td><td>$39.00</td><td><span class="chip info">Cambio</span></td></tr>
+<tr><td><b>DEV-0089</b></td><td>Mario Cedeño</td><td>No le gustó</td><td>$18.50</td><td><span class="chip warn">Esperando producto</span></td></tr>
+<tr><td><b>DEV-0088</b></td><td>Vet. San Roque</td><td>Fecha vencimiento</td><td>$96.00</td><td><span class="chip ok">Reembolsado</span></td></tr>
+<tr><td><b>DEV-0087</b></td><td>Elena Paz</td><td>Error en pedido</td><td>$12.99</td><td><span class="chip bad">Rechazada</span></td></tr>
+</table></div>
+<div class="card"><div style="display:flex;justify-content:space-between;align-items:flex-start"><div><div style="font-size:12px;color:var(--a-muted)">CASO DEV-0091 · Pedido #PED-10479 · Factura 001-001-4498</div><h3 style="margin-top:4px">Luis Mena · Producto dañado</h3></div><span class="chip warn">En revisión</span></div>
+<div style="display:flex;gap:10px;margin:6px 0 14px"><div style="width:90px;height:70px;border-radius:12px;background:#FEE2E2;display:grid;place-items:center;font-size:34px">📦</div><div style="width:90px;height:70px;border-radius:12px;background:#FEF3C7;display:grid;place-items:center;font-size:34px">🪣</div><div style="font-size:13px;color:var(--a-muted);flex:1">"La bolsa de arena llegó rota y se derramó la mitad." <br>📷 2 fotos adjuntas</div></div>
+<table><tr><th>Producto</th><th>Cant.</th><th>Condición</th><th>Acción stock</th></tr>
+<tr><td><span class="thumb">🪣</span>Arena aglomerante 10kg</td><td>1</td><td><span class="chip bad">Dañado</span></td><td>🗑 Merma</td></tr>
+<tr><td><span class="thumb">🎾</span>Pelota x1</td><td>1</td><td><span class="chip ok">Buen estado</span></td><td>📦 Reingresar</td></tr></table>
+<h3 style="margin-top:16px">Resolución</h3>
+<div class="tabs"><span class="on">💳 Reembolso</span><span>🔄 Cambio</span><span>🎟 Saldo a favor</span></div>
+<div class="tot">Nota de crédito <b>001-001-NC-00034</b></div><div class="tot big">A reembolsar <span>$23.40</span></div>
+<div style="display:flex;gap:8px;margin-top:12px"><button class="btn btn-ghost" style="flex:1;justify-content:center;color:var(--bad)">✕ Rechazar</button><button class="btn btn-pri" style="flex:2;justify-content:center">✓ Aprobar y emitir nota de crédito</button></div>
+</div></div>
+</main></div></body></html>
